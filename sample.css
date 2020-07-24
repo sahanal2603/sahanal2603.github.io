@@ -1,0 +1,104 @@
+h1
+{
+margin:0;
+ padding: 0 0 20px;
+ text-align: center;
+ font-size: 50px;
+}
+h2
+{
+margin:0;
+ padding: 0 0 20px;
+ text-align: left;
+ font-size: 25px;	
+}
+p
+{
+	margin:0;
+ padding: 0 0 10px;
+ text-align:left;
+ font-size: 20px;
+}
+ol
+{
+	margin:20;
+ padding: 0 0 0px;
+ text-align:left;
+ font-size: 20px;
+}
+.img
+{
+	
+ left: 10.5%;
+ top:111px;
+ position: relative;
+}
+.fade-in {
+animation: fadeIn ease 20s;
+-webkit-animation: fadeIn ease 20s;
+-moz-animation: fadeIn ease 20s;
+-o-animation: fadeIn ease 20s;
+-ms-animation: fadeIn ease 20s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+
+div p {
+display: inline-block;
+font-family: 'Montserrat';
+font-size: 30px;
+color: black;
+text-transform: none;
+margin: 0 20px;
+opacity: 0.0;
+animation: fadeIn ease 10s;
+-webkit-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
